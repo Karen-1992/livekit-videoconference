@@ -1,0 +1,28 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "tsc": "tsc -p tsconfig.json",
+        "start": "nodemon index.ts"
+    },
+    "dependencies": {
+        "@livekit/egress-sdk": "^0.1.2",
+        "axios": "^1.1.3",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.3.1",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "livekit-server-sdk": "^1.2.5",
+        "lodash": "^4.17.21",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.182",
+        "nodemon": "^2.0.14",
+        "ts-node": "^10.7.0",
+        "ttypescript": "^1.5.13",
+        "typescript": "^5.2.2"
+    }
+}

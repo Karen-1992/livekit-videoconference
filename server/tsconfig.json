@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext", "dom"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "sourceMap": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "plugins": [{ "transform": "ts-auto-mock/transformer", "cacheBetweenTests": false }]
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

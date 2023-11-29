@@ -1,0 +1,7 @@
+{
+    "watch": ["src/*", "index.ts"],
+    "ext": "js,json,ts",
+    "env": {
+        "NODE_ENV": "development"
+    }
+}
