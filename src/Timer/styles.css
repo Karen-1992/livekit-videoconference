@@ -1,0 +1,34 @@
+/* Timer */
+
+.timer-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: rgb(255 255 255 / 5%);
+    border-radius: 28px 28px 0 0;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer__value {
+    font: 600 50px/50px "Montserrat";
+    color: black;
+}
+
+.timer__seconds {
+    color: #62c472;
+}
+.timer__seconds--red {
+    color: #ff4c77;
+}
+.timer__seconds--orange {
+    color: #ff9900;
+}
